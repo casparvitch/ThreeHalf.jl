@@ -1,0 +1,27 @@
+'Working' to same level as JP's code
+Now todo:
+- write down all of the transitions on paper and see what are the minimal working conditions
+- can we implement a simple 5 level system? need a new function
+	- so there'd be no spin conserving transitions up.. do I care? maybe
+	- leave that as a question for JP, alongside bias field m\_s stuff
+- i.e. do some physics
+
+what happens with different mw transition rates? Basically reach saturation of (minimal) PL -> noice
+
+ok leave that for a moment
+-> measure PL contrast (mw off vs mw on)
+-> want to build an ODMR spectrum 
+	-> sweep MW with rabi approximation (per resonance)
+		-> first work on what that approximation looks like
+		-> medium angle approx for sine
+		-> single parameter 'decay' ~ \xi?
+		-> average transition rate?? transition rate changes...
+		-> how complex would t-dependent hamiltonian be? ehh work without much learning
+	-> i.e. set transition rate for each resonance depending on how near resonance we are
+	-> for each orientation as well? 
+	-> would need to extract esr freqs BEFORE calculating PL (easy)
+-> also want to average over B orientations? 
+	-> try this first? simples? plot and see what you get
+
+-> try 'only closest resonance' vs 'all resonances' to see if the detuning as much effect... 
+	-> especially on the lineshape
